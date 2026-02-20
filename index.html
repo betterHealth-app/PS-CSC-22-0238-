@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <title>MyRoom.otfx</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="aframe.0.7.1.min.js"></script>
+    <script src="aframe-animation-component.min.js"></script>
+    <script src="assets/ada-water.js"></script>
+    <script src="main.js"></script>
+  </head>
+  
+  <body>
+    <div id="splash">
+      <div class="loading"></div>
+      <div class="start-button">Start</div>
+    </div>
+    
+    <a-scene fog="color: #000000; far: 0; type: linear;">
+      <a-assets>
+        <a-asset-item id="r1q3BCvwM__tableobj" src="assets/r1q3BCvwM__table.obj"></a-asset-item>
+        <img id="SkQRjetPG__beautransparentpng" src="assets/SkQRjetPG__beautransparent.png">
+        <img id="S1Otob5wz__whitebricklowrezjpg" src="assets/BJLuhZcvf__whitebricklowrez.jpg">
+        <img id="S1Hii-9Df__whitebricklowrezjpg" src="assets/BJLuhZcvf__whitebricklowrez.jpg">
+        <img id="rJK2o-5vz__whitebricklowrezjpg" src="assets/BJLuhZcvf__whitebricklowrez.jpg">
+        <img id="r1EpoZ9Pf__whitebricklowrezjpg" src="assets/BJLuhZcvf__whitebricklowrez.jpg">
+        <img id="H15knW5wz__whitebricklowrezjpg" src="assets/BJLuhZcvf__whitebricklowrez.jpg">
+        <img id="S12ZnZ9vG__whitebricklowrezjpg" src="assets/BJLuhZcvf__whitebricklowrez.jpg">
+        <img id="SyRmnZqDf__whitebricklowrezjpg" src="assets/BJLuhZcvf__whitebricklowrez.jpg">
+        <img id="rkAEhbqDz__whitebricklowrezjpg" src="assets/BJLuhZcvf__whitebricklowrez.jpg">
+        <img id="HJdr2bqPG__whitebricklowrezjpg" src="assets/BJLuhZcvf__whitebricklowrez.jpg">
+        <img id="HkHU3W9PM__whitebricklowrezjpg" src="assets/BJLuhZcvf__whitebricklowrez.jpg">
+        <img id="BJLuhZcvf__whitebricklowrezjpg" src="assets/BJLuhZcvf__whitebricklowrez.jpg">
+        <img id="Sy7K3-9wM__whitebricklowrezjpg" src="assets/BJLuhZcvf__whitebricklowrez.jpg">
+        <img id="SybmaWqwz__lightwoodlowrezjpg" src="assets/SybmaWqwz__lightwoodlowrez.jpg">
+        <img id="BJEV6ZqvM__stonelowrezjpg" src="assets/BJEV6ZqvM__stonelowrez.jpg">
+        <img id="SJpVaZ5vM__stonelowrezjpg" src="assets/BJEV6ZqvM__stonelowrez.jpg">
+        <img id="rJGwpb9PG__stonelowrezjpg" src="assets/BJEV6ZqvM__stonelowrez.jpg">
+        <img id="HyR-RZcPf__centralparkjpg" src="assets/HyR-RZcPf__centralpark.jpg">
+        <img id="rkNp1f5DG__floor1lowrezjpg" src="assets/rkNp1f5DG__floor1lowrez.jpg">
+        <a-asset-item id="Hk8SbzcDG__commoncouch01obj" src="assets/Hk8SbzcDG__common couch01.obj"></a-asset-item>
+        <img id="rkMsHMqDf__HouseofCjpg" src="assets/rkMsHMqDf__HouseofC.jpg">
+        <img id="BkYsnz5wf__lunchatopjpg" src="assets/BkYsnz5wf__lunchatop.jpg">
+        <a-asset-item id="ByWTlmcDG__blackobj" src="assets/ByWTlmcDG__black.obj"></a-asset-item>
+        <img id="r1h-mXqDM__nyclowrezjpg" src="assets/r1h-mXqDM__nyclowrez.jpg">
+        <img id="H1XLmicvf__Roofjpg" src="assets/H1XLmicvf__Roof.jpg">
+        <img id="S1EzSooDf__taxijpg" src="assets/S1EzSooDf__taxi.jpg">
+
+        <a-asset-item id="fence-end-model" src="assets/Fence End.glb"></a-asset-item>
+        <a-asset-item id="gate-model" src="assets/Gate.glb"></a-asset-item>
+        <a-asset-item id="car-model" src="assets/Terrano.glb"></a-asset-item>
+        <a-asset-item id="tree-model" src="assets/Tree.glb"></a-asset-item>
+        <img id="grass-texture" src="assets/grass.png">
+      </a-assets>
+
+      
+      <a-entity id="main-camera-wrapper" position="0.75 2.43 8.25" rotation="0 0 0">
+        <a-camera id="main-camera" user-height="0" visible="true" wasd-controls="acceleration: 75; easing: 10; enabled: true; fly: false;"
+        cursor="rayOrigin: mouse;" raycaster="objects: .clickable"></a-camera>
+      </a-entity>
+      
+      <a-box id="box-82" position="8.98 3.11 -0.56" rotation="0 0 0" scale="1 1 1" geometry="width: 1; height: 1.9; depth: 2.8;"
+      material="color: #080808; opacity: 1; shader: standard; side: double; metalness: 0.5; roughness: 1; repeat: 1 1;" visible="true"></a-box>
+      
+      
+      
+      
+      
+      <a-image id="image-3" position="10.57 2.47 6.43" rotation="0 270 0" scale="2.5 2.5 2.5"
+      geometry="width: 1.6; height: .9;" material="color: #ffffff; opacity: 0; shader: standard; side: double; src: #rkMsHMqDf__HouseofCjpg; metalness: 0.5; roughness: 1; repeat: 1 1;"
+      visible="true" animation="startEvents: box-79-clicked; property: material.opacity; to: 1; dur: 4000; easing: easeInQuad; elasticity: 400; delay: 0; dir: normal; loop: 0; "></a-image>
+      
+      <a-obj-model id="obj-model-1" position="4.25 0.25 -7.50" rotation="0 270 0"
+      scale="0.03 0.03 0.03" obj-model="obj: #Hk8SbzcDG__commoncouch01obj;" material="color: #490e0e; opacity: 1; shader: standard; side: double; metalness: 0.5; roughness: 1; repeat: 1 1;" visible="true"></a-obj-model>
+      
+      <a-obj-model id="obj-model-2" position="-1.25 0.25 -7.50" rotation="0 90 0"
+      scale="0.03 0.03 0.03" obj-model="obj: #Hk8SbzcDG__commoncouch01obj;" material="color: #490e0e; opacity: 1; shader: standard; side: double; metalness: 0.5; roughness: 1; repeat: 1 1;" visible="true"></a-obj-model>
+      
+      <a-text id="text-2" position="-2.45 2.25 7.75" rotation="0 90 0" scale="1 1 1"
+      text="value: LOW; font: assets/Oswald-SemiBold.fnt; align: center; opacity: 1; color: #000000; wrapCount: 60; letterSpacing: 0; lineHeight: 64; width: 6; height: 0; side: double; anchor: center;" visible="true"></a-text>
+      
+      <a-cylinder id="cylinder-8" position="-3.69 2.51 -7.23" rotation="0 90 90"
+      scale="0.1 0.1 0.1" geometry="height: 2; radius: 1.6; openEnded: false; thetaStart: 0; thetaLength: 360;"
+      material="color: #781717; opacity: 1; shader: standard; metalness: 0.97; roughness: 0.88; side: double; repeat: 1 1;" visible="true" class="clickable"></a-cylinder>
+      
+      <a-box id="box-80" position="-3.67 2.51 -7.29" rotation="0 90 90" scale="1 1 1"
+      geometry="width: .5; height: .1; depth: .5;" material="color: #1e1e1e; opacity: 1; shader: standard; side: double; metalness: 0.5; roughness: 1; repeat: 1 1;" visible="true"></a-box>
+      
+      <a-box id="box-79" position="5.75 0.9 6.75" rotation="0 20 0" scale="1 1 1"
+      geometry="width: .5; height: .1; depth: .2;" material="color: #1e1e1e; opacity: 1; shader: standard; side: double; metalness: 0.5; roughness: 1; repeat: 1 1;" visible="true" class="clickable"></a-box>
+      
+      <a-text id="text-3" position="-2.45 2.25 5.75" rotation="0 90 0" scale="1 1 1"
+      text="value: HI; font: assets/Oswald-SemiBold.fnt; align: center; opacity: 1; color: #000000; wrapCount: 60; letterSpacing: 0; lineHeight: 64; width: 6; height: 0; side: double; anchor: center;" visible="true"></a-text>
+      
+      <a-text id="text-1" position="-2.45 2.25 6.75" rotation="0 90 0" scale="1 1 1"
+      text="value: MED; font: assets/Oswald-SemiBold.fnt; align: center; opacity: 1; color: #000000; wrapCount: 60; letterSpacing: 0; lineHeight: 64; width: 6; height: 0; side: double; anchor: center;" visible="true"></a-text>
+      
+      
+      
+      <a-text id="text" position="-2.45 2.71 6.74" rotation="0 90 0" scale="1 1 1"
+      text="value: Click Buttons to Control Lights; font: assets/Oswald-Light.fnt; align: center; opacity: 1; color: #f9f9f9; wrapCount: 70; letterSpacing: 0; lineHeight: 64; width: 6; height: 0; side: double; anchor: center;" visible="true"></a-text>
+      
+      <a-image id="image-2" position="1.00 1.00 11.50" rotation="0 45 0" scale="1 1 1"
+      geometry="width: 1; height: 1.3;" material="color: #8b8b8b; opacity: .99; shader: standard; side: double; src: #SkQRjetPG__beautransparentpng; metalness: 0.5; roughness: 1; repeat: 1 1;" visible="true" animation="startEvents: scene-started; property: rotation; to: 0 405 0; dur: 5000; easing: easeInQuad; elasticity: 400; delay: 0; dir: normal; loop: true; "></a-image>
+      
+      <a-box id="box-78" position="-2.5 2.25 5.75" rotation="0 0 0" scale="1 1 1"
+      geometry="width: .1; height: .4; depth: .4;" material="color: #ffffff; opacity: 1; shader: standard; side: double; metalness: 1; roughness: 0.95; repeat: 1 1;" visible="true" class="clickable"></a-box>
+      
+      <a-box id="box-77" position="-2.50 2.25 6.75" rotation="0 0 0" scale="1 1 1"
+      geometry="width: .1; height: .4; depth: .4;" material="color: #ffffff; opacity: 1; shader: standard; side: double; metalness: 1; roughness: 0.95; repeat: 1 1;" visible="true" class="clickable"></a-box>
+      
+      <a-box id="box-76" position="-2.50 2.25 7.75" rotation="0 0 0" scale="1 1 1"
+      geometry="width: .1; height: .4; depth: .4;" material="color: #ffffff; opacity: 1; shader: standard; side: double; metalness: 1; roughness: 0.95; repeat: 1 1;" visible="true" class="clickable"></a-box>
+      
+      <a-ring id="ring" position="8.35 1.75 -4.25" rotation="0 0 0" scale="0.1 0.1 0.1"
+      geometry="radiusInner: 1; radiusOuter: 1.5; thetaStart: 0; thetaLength: 360;" material="color: #4e4c4c; opacity: 1; shader: standard; metalness: 1; roughness: 0.52; side: double; repeat: 1 1;" visible="true"></a-ring>
+      
+      <a-box id="box-47" position="5.50 1.25 10.50" rotation="85 180 0" scale="1 1 1"
+      geometry="width: 5; height: .5; depth: 1;" material="color: #362713; opacity: 1; shader: standard; side: double; metalness: 1; roughness: .9; repeat: 1 1;" visible="true"></a-box>
+      
+      <a-box id="box-45" position="5.50 1.25 3.00" rotation="85 0 0" scale="1 1 1"
+      geometry="width: 5; height: .5; depth: 1;" material="color: #362713; opacity: 1; shader: standard; side: double; metalness: 1; roughness: .9; repeat: 1 1;" visible="true"></a-box>
+      
+      <a-box id="box-46" position="5.50 0.50 10.00" rotation="0 0 0" scale="1 1 1"
+      geometry="width: 5; height: .8; depth: 1.2;" material="color: #362713; opacity: 1; shader: standard; side: double; metalness: 1; roughness: .9; repeat: 1 1;" visible="true"></a-box>
+      
+      <a-box id="box-63" position="-8.25 0.25 7.25" rotation="0 0 0" scale="1 1 1"
+      geometry="width: 4.2; height: 2; depth: 5.2;" material="color: #4c3506; opacity: 1; shader: standard; side: double; metalness: 1; roughness: 1; repeat: 1 1;" visible="true"></a-box>
+      
+      <a-cylinder id="cylinder-3" position="-6.25 3.75 -7.00" rotation="0 0 0"
+      scale="1 1 1" geometry="height: .5; radius: .2; openEnded: true; thetaStart: 0; thetaLength: 360;"
+      material="color: #611517; opacity: 1; shader: standard; metalness: 0.5; roughness: 1; side: double; repeat: 1 1;" visible="true"></a-cylinder>
+      
+      <a-cylinder id="cylinder-1" position="-5.00 2.50 5.50" rotation="0 0 0"
+      scale="1 1 1" geometry="height: .5; radius: .5; openEnded: true; thetaStart: 0; thetaLength: 360;"
+      material="color: #ffffff; opacity: 1; shader: standard; metalness: 0.5; roughness: 1; side: double; repeat: 1 1;" visible="true"></a-cylinder>
+      
+      <a-cylinder id="cylinder-6" position="-2.25 0.00 1.50" rotation="0 0 0"
+      scale="1 1 1" geometry="height: 3; radius: .1; openEnded: true; thetaStart: 0; thetaLength: 360;"
+      material="color: #515151; opacity: 1; shader: standard; metalness: 0.5; roughness: 1; side: double; repeat: 1 1;" visible="true"></a-cylinder>
+      
+      <a-cylinder id="cylinder-1" position="-5.00 2.00 5.50" rotation="0 0 0"
+      scale="1 1 1" geometry="height: .8; radius: .2; openEnded: true; thetaStart: 0; thetaLength: 360;"
+      material="color: #611517; opacity: 1; shader: standard; metalness: 0.5; roughness: 1; side: double; repeat: 1 1;" visible="true"></a-cylinder>
+      
+      <a-cylinder id="cylinder-2" position="8.25 1.75 -4.25" rotation="0 0 0"
+      scale="1 1 1" geometry="height: .4; radius: .05; openEnded: true; thetaStart: 0; thetaLength: 360;"
+      material="color: #2d2d2d; opacity: 1; shader: standard; metalness: 1; roughness: 0.57; side: double; repeat: 1 1;" visible="true"></a-cylinder>
+      
+      <a-cylinder id="cylinder-4" position="-5.75 3.67 -7.00" rotation="0 0 0"
+      scale="1 1 1" geometry="height: .3; radius: .1; openEnded: true; thetaStart: 0; thetaLength: 360;"
+      material="color: #0d4110; opacity: 1; shader: standard; metalness: 0.5; roughness: 1; side: double; repeat: 1 1;" visible="true"></a-cylinder>
+      
+      <a-cylinder id="cylinder-7" position="-2.25 0.00 -0.25" rotation="0 0 0"
+      scale="1 1 1" geometry="height: 3; radius: .1; openEnded: true; thetaStart: 0; thetaLength: 360;"
+      material="color: #515151; opacity: 1; shader: standard; metalness: 0.5; roughness: 1; side: double; repeat: 1 1;" visible="true"></a-cylinder>
+      
+      <a-cylinder id="cylinder-5" position="-2.25 0.00 3.00" rotation="0 0 0"
+      scale="1 1 1" geometry="height: 3; radius: .1; openEnded: true; thetaStart: 0; thetaLength: 360;"
+      material="color: #515151; opacity: 1; shader: standard; metalness: 0.5; roughness: 1; side: double; repeat: 1 1;" visible="true"></a-cylinder>
+      
+      <a-cylinder id="cylinder" position="-5.00 2.50 5.50" rotation="0 0 0"
+      scale="1 1 1" geometry="height: .5; radius: .5; openEnded: true; thetaStart: 0; thetaLength: 360;"
+      material="color: #ffffff; opacity: 1; shader: standard; metalness: 0.5; roughness: 1; side: double; repeat: 1 1;" visible="true"></a-cylinder>
+      
+      <a-box id="box-66" position="-5.00 1.00 5.50" rotation="0 0 0" scale="1 1 1"
+      geometry="width: 1.6; height: 1.3; depth: 1;" material="color: #4c3506; opacity: 1; shader: standard; side: double; metalness: 1; roughness: 1; repeat: 1 1;" visible="true"></a-box>
+      
+      <a-box id="box-65" position="-7.25 1.00 5.50" rotation="0 0 0" scale="1 1 1"
+      geometry="width: 1.6; height: 1.3; depth: 1;" material="color: #808080; opacity: 1; shader: standard; side: double; metalness: 1; roughness: 1; repeat: 1 1;" visible="true"></a-box>
+      
+      <a-box id="box-64" position="-9.25 1.00 5.50" rotation="0 0 0" scale="1 1 1"
+      geometry="width: 1.6; height: 1.3; depth: 1;" material="color: #808080; opacity: 1; shader: standard; side: double; metalness: 1; roughness: 1; repeat: 1 1;" visible="true"></a-box>
+      
+      <a-box id="box-62" position="-8.25 0.50 7.25" rotation="0 0 0" scale="1 1 1"
+      geometry="width: 4; height: 2; depth: 5;" material="color: #274079; opacity: 1; shader: standard; side: double; metalness: 1; roughness: 1; repeat: 1 1;" visible="true"></a-box>
+      
+      <a-box id="box-49" position="3.50 0.50 8.50" rotation="0 0 0" scale="1 1 1"
+      geometry="width: 1; height: .8; depth: 2;" material="color: #362713; opacity: 1; shader: standard; side: double; metalness: 1; roughness: .9; repeat: 1 1;" visible="true"></a-box>
+      
+      <a-box id="box-61" position="1.50 0.20 -7.50" rotation="0 0 0" scale="1 1 1"
+      geometry="width: 2; height: .8; depth: 1;" material="color: #162d3b; opacity: 1; shader: standard; side: double; metalness: 1; roughness: .9; repeat: 1 1;" visible="true"></a-box>
+      
+      <a-box id="box-51" position="6.75 0.25 6.75" rotation="0 0 0" scale="1 1 1"
+      geometry="width: 2; height: .8; depth: 1;" material="color: #840f0f; opacity: 1; shader: standard; side: double; metalness: 1; roughness: .9; repeat: 1 1;" visible="true"></a-box>
+      
+      <a-box id="box-60" position="1.50 0.75 -7.50" rotation="0 0 0" scale="1 1 1"
+      geometry="width: 3; height: .2; depth: 2;" material="color: #aca7a0; opacity: 0.45; shader: standard; side: double; metalness: 1; roughness: .9; repeat: 1 1;" visible="true"></a-box>
+      
+      <a-box id="box-50" position="6.75 0.75 6.75" rotation="0 0 0" scale="1 1 1"
+      geometry="width: 3; height: .2; depth: 2;" material="color: #aca7a0; opacity: 0.45; shader: standard; side: double; metalness: 1; roughness: .9; repeat: 1 1;" visible="true"></a-box>
+      
+      <a-box id="box-48" position="3.50 0.50 4.50" rotation="0 0 0" scale="1 1 1"
+      geometry="width: 1; height: .8; depth: 2;" material="color: #362713; opacity: 1; shader: standard; side: double; metalness: 1; roughness: .9; repeat: 1 1;" visible="true"></a-box>
+      
+      <a-box id="box-44" position="5.50 0.50 3.50" rotation="0 0 0" scale="1 1 1"
+      geometry="width: 5; height: .8; depth: 1.2;" material="color: #362713; opacity: 1; shader: standard; side: double; metalness: 1; roughness: .9; repeat: 1 1;" visible="true"></a-box>
+      
+      <a-box id="box-35" position="-7.8 0.75 4.00" rotation="0 0 0" scale="1 1 1"
+      geometry="width: 2; height: 2; depth: 1;" material="color: #515a5e; opacity: 1; shader: standard; side: double; metalness: 1; roughness: 1; repeat: 1 1;" visible="true"></a-box>
+      
+      <a-box id="box-39" position="-4.50 0.75 4.00" rotation="0 0 0" scale="1 1 1"
+      geometry="width: 2; height: 2; depth: 1;" material="color: #515a5e; opacity: 1; shader: standard; side: double; metalness: 1; roughness: 1; repeat: 1 1;" visible="true"></a-box>
+      
+      <a-box id="box-54" position="-9.25 0.75 4.25" rotation="0 0 0" scale="1 1 1"
+      geometry="width: 1.1; height: 6; depth: 1.3;" material="color: #252525; opacity: 1; shader: standard; side: double; metalness: 1; roughness: 0.63; repeat: 1 1;" visible="true"></a-box>
+      
+      <a-box id="box-53" position="-9.45 0.75 4.00" rotation="0 0 0" scale="1 1 1"
+      geometry="width: 1.1; height: 6; depth: 1.3;" material="color: #b9b9b9; opacity: 1; shader: standard; side: double; metalness: 1; roughness: 0.63; repeat: 1 1;" visible="true"></a-box>
+      
+      <a-box id="box-59" position="-6.25 1.00 4.50" rotation="0 0 0" scale="1 1 1"
+      geometry="width: 1.8; height: 2.3; depth: .2;" material="color: #b9b9b9; opacity: 1; shader: standard; side: double; metalness: 1; roughness: 0.63; repeat: 1 1;" visible="true"></a-box>
+      
+      <a-box id="box-74" position="-2.25 1.4 3.00" rotation="0 0 0" scale="1 1 1"
+      geometry="width: .7; height: .2; depth: .9;" material="color: #871616; opacity: 1; shader: standard; side: double; metalness: 1; roughness: 0.63; repeat: 1 1;" visible="true"></a-box>
+      
+      <a-box id="box-75" position="-2.25 1.40 -0.25" rotation="0 0 0" scale="1 1 1"
+      geometry="width: .7; height: .2; depth: .9;" material="color: #871616; opacity: 1; shader: standard; side: double; metalness: 1; roughness: 0.63; repeat: 1 1;" visible="true"></a-box>
+      
+      <a-box id="box-73" position="-2.25 1.40 1.50" rotation="0 0 0" scale="1 1 1"
+      geometry="width: .7; height: .2; depth: .9;" material="color: #871616; opacity: 1; shader: standard; side: double; metalness: 1; roughness: 0.63; repeat: 1 1;" visible="true"></a-box>
+      
+      <a-box id="box-58" position="-6.25 0.75 4.00" rotation="0 0 0" scale="1 1 1"
+      geometry="width: 1.8; height: 2.3; depth: 1.3;" material="color: #b9b9b9; opacity: 1; shader: standard; side: double; metalness: 1; roughness: 0.63; repeat: 1 1;" visible="true"></a-box>
+      
+      <a-box id="box-52" position="-8.3 0.75 4.00" rotation="0 0 0" scale="1 1 1"
+      geometry="width: 1.1; height: 6; depth: 1.3;" material="color: #b9b9b9; opacity: 1; shader: standard; side: double; metalness: 1; roughness: 0.63; repeat: 1 1;" visible="true"></a-box>
+      
+      <a-box id="box-34" position="-11.00 0.75 4.00" rotation="0 0 0" scale="1 1 1"
+      geometry="width: 2; height: 2; depth: 1;" material="color: #515a5e; opacity: 1; shader: standard; side: double; metalness: 1; roughness: 1; repeat: 1 1;" visible="true"></a-box>
+      
+      <a-box id="box-38" position="-7.35 1.75 4.00" rotation="0 0 0" scale="1 1 1"
+      geometry="width: 1; height: .1; depth: 1.2;" material="color: #9f8e7e; opacity: 1; shader: standard; side: double; metalness: 1; roughness: 1; repeat: 5 1;" visible="true"></a-box>
+      
+      
+      
+      <a-image id="image" position="-17.05 -0.57 0.15" rotation="290 90 0"
+      scale="1 1 1" geometry="width: 16; height: 8;" material="color: #a9a6a6; opacity: 1; shader: standard; side: double; src: #H1XLmicvf__Roofjpg; metalness: 0.5; roughness: 1; repeat: 1 1;" visible="true"></a-image>
+      
+      
+      
+      <a-box id="box-40" position="-11.00 1.75 4.00" rotation="0 0 0"
+      scale="1 1 1" geometry="width: 2; height: .1; depth: 1.2;" material="color: #ffffff; opacity: 1; shader: standard; side: double; src: #rJGwpb9PG__stonelowrezjpg; metalness: 1; roughness: 1; repeat: 5 1;" visible="true"></a-box>
+      
+      <a-box id="box-37" position="-4.50 1.75 4.00" rotation="0 0 0" scale="1 1 1"
+      geometry="width: 2; height: .1; depth: 1.2;" material="color: #ffffff; opacity: 1; shader: standard; side: double; src: #SJpVaZ5vM__stonelowrezjpg; metalness: 1; roughness: 1; repeat: 5 1;" visible="true"></a-box>
+      
+      <a-box id="box-36" position="-3.00 1.75 1.4" rotation="0 90 0" scale="1 1 1"
+      geometry="width: 6.2; height: .1; depth: 1.2;" material="color: #ffffff; opacity: 1; shader: standard; side: double; src: #BJEV6ZqvM__stonelowrezjpg; metalness: 1; roughness: 1; repeat: 5 1;"
+      visible="true"></a-box>
+      
+      <a-box id="box-43" position="11.10 2.46 6.42" rotation="0 90 0" scale="1 1 1"
+      geometry="width: 4.42; height: 2.62; depth: 1;" material="color: #0a0a0a; opacity: 1; shader: standard; side: double; metalness: 1; roughness: 1; repeat: 1 1;" visible="true"></a-box>
+      
+      <a-box id="box-70" position="8.00 0.75 -0.50" rotation="0 90 0" scale="1 1 1"
+      geometry="width: 4.1; height: 2.2; depth: 1;" material="color: #5b4624; opacity: 1; shader: standard; side: double; metalness: 0.89; roughness: 1; repeat: 1 1;" visible="true"></a-box>
+      
+      <a-box id="box-72" position="-7.50 3.50 -7.25" rotation="0 0 0" scale="1 1 1"
+      geometry="width: 5; height: .1; depth: 1;" material="color: #33250f; opacity: 1; shader: standard; side: double; metalness: 0.89; roughness: 1; repeat: 1 1;" visible="true"></a-box>
+      
+      <a-box id="box-71" position="7.90 1.50 -0.50" rotation="0 90 0" scale="1 1 1"
+      geometry="width: 4; height: .6; depth: 1;" material="color: #33250f; opacity: 1; shader: standard; side: double; metalness: 0.89; roughness: 1; repeat: 1 1;" visible="true"></a-box>
+      
+      <a-box id="box-69" position="7.9 0.75 -0.50" rotation="0 90 0" scale="1 1 1"
+      geometry="width: 4; height: .6; depth: 1;" material="color: #33250f; opacity: 1; shader: standard; side: double; metalness: 0.89; roughness: 1; repeat: 1 1;" visible="true"></a-box>
+      
+      <a-box id="box-33" position="-3 0.75 1.5" rotation="0 90 0" scale="1 1 1"
+      geometry="width: 6; height: 2; depth: 1;" material="color: #747a7c; opacity: 1; shader: standard; side: double; metalness: 1; roughness: 1; repeat: 1 1;" visible="true"></a-box>
+      
+      <a-plane id="plane-4" position="-12.55 1.21 9.75" rotation="0 90 0" scale="10 10 1"
+      geometry="width: 1; height: 1;" material="color: #2a2d33; opacity: 0.6; shader: standard; side: double; metalness: 0.5; roughness: 1; repeat: 1 1;" visible="true"></a-plane>
+      
+      <a-plane id="plane-3" position="-7.50 1.21 14.75" rotation="0 0 0" scale="10 10 1"
+      geometry="width: 1; height: 1;" material="color: #2a2d33; opacity: 0.6; shader: standard; side: double; metalness: 0.5; roughness: 1; repeat: 1 1;" visible="true"></a-plane>
+      
+      <a-plane id="plane-5" position="-12.75 1.21 -2.25" rotation="0 90 0" scale="10 10 1"
+      geometry="width: 1; height: 1;" material="color: #2a2d33; opacity: 0.6; shader: standard; side: double; metalness: 0.5; roughness: 1; repeat: 1 1;" visible="true"></a-plane>
+      
+      <a-plane id="plane-2" position="0.75 1.21 -10.25" rotation="0 0 0" scale="10 10 1"
+      geometry="width: 1; height: 1;" material="color: #2a2d33; opacity: 0.6; shader: standard; side: double; metalness: 0.5; roughness: 1; repeat: 1 1;" visible="true"></a-plane>
+      
+      <a-box id="box-5" position="5.75 1.25 -10.25" rotation="0 0 0" scale="0.2 10 0.2"
+      geometry="width: 1; height: 1; depth: 1;" material="color: #a67b3f; opacity: 1; shader: standard; side: double; metalness: 1; roughness: 1; repeat: 1 4;" visible="true"></a-box>
+      
+      <a-box id="box-13" position="6.00 4.50 4.50" rotation="0 90 90" scale="0.2 10 0.2"
+      geometry="width: 2; height: 3; depth: 2;" material="color: #4c3506; opacity: 1; shader: standard; side: double; metalness: 1; roughness: 1; repeat: 1 8;" visible="true"></a-box>
+      
+      <a-box id="box-32" position="2.50 4.50 -4.25" rotation="0 0 90" scale="0.2 10 0.2"
+      geometry="width: 2; height: 3; depth: 2;" material="color: #4c3506; opacity: 1; shader: standard; side: double; metalness: 1; roughness: 1; repeat: 1 8;" visible="true"></a-box>
+      
+      <a-box id="box-31" position="2.50 4.50 1.75" rotation="0 0 90" scale="0.2 10 0.2"
+      geometry="width: 2; height: 3; depth: 2;" material="color: #4c3506; opacity: 1; shader: standard; side: double; metalness: 1; roughness: 1; repeat: 1 8;" visible="true"></a-box>
+      
+      <a-box id="box-10" position="-2.75 4.50 4.50" rotation="0 90 90" scale="0.2 10 0.2"
+      geometry="width: 2; height: 3; depth: 2;" material="color: #4c3506; opacity: 1; shader: standard; side: double; metalness: 1; roughness: 1; repeat: 1 8;" visible="true"></a-box>
+      
+      <a-box id="box-21" position="-8.50 4.75 14.69" rotation="0 0 90" scale="0.2 8.1 0.2"
+      geometry="width: 1; height: 1; depth: 1;" material="color: #a67b3f; opacity: 1; shader: standard; side: double; metalness: 1; roughness: 1; repeat: 1 4;" visible="true"></a-box>
+      
+      <a-box id="box-20" position="-8.50 0.25 14.69" rotation="0 0 90" scale="0.2 8.1 0.2"
+      geometry="width: 1; height: 1; depth: 1;" material="color: #a67b3f; opacity: 1; shader: standard; side: double; metalness: 1; roughness: 1; repeat: 1 4;" visible="true"></a-box>
+      
+      <a-box id="box-57" position="-2.50 3.25 10.25" rotation="0 90 90" scale="0.2 1.7 0.2"
+      geometry="width: 1; height: 1; depth: 1;" material="color: #a67b3f; opacity: 1; shader: standard; side: double; metalness: 1; roughness: 1; repeat: 1 4;" visible="true"></a-box>
+      
+      <a-box id="box-19" position="-12.50 0.25 10.75" rotation="0 90 90" scale="0.2 8.1 0.2"
+      geometry="width: 1; height: 1; depth: 1;" material="color: #a67b3f; opacity: 1; shader: standard; side: double; metalness: 1; roughness: 1; repeat: 1 4;" visible="true"></a-box>
+      
+      <a-box id="box-18" position="-12.50 4.75 10.75" rotation="0 90 90" scale="0.2 8.1 0.2"
+      geometry="width: 1; height: 1; depth: 1;" material="color: #a67b3f; opacity: 1; shader: standard; side: double; metalness: 1; roughness: 1; repeat: 1 4;" visible="true"></a-box>
+      
+      <a-box id="box-7" position="2.50 4.75 -10.25" rotation="0 0 90" scale="0.2 10 0.2"
+      geometry="width: 1; height: 1; depth: 1;" material="color: #a67b3f; opacity: 1; shader: standard; side: double; metalness: 1; roughness: 1; repeat: 1 4;" visible="true"></a-box>
+      
+      <a-box id="box-28" position="-12.75 4.75 -1.75" rotation="0 90 90" scale="0.2 10 0.2"
+      geometry="width: 1; height: 1; depth: 1;" material="color: #a67b3f; opacity: 1; shader: standard; side: double; metalness: 1; roughness: 1; repeat: 1 4;" visible="true"></a-box>
+      
+      <a-box id="box-27" position="-12.75 0.25 -1.75" rotation="0 90 90" scale="0.2 10 0.2"
+      geometry="width: 1; height: 1; depth: 1;" material="color: #a67b3f; opacity: 1; shader: standard; side: double; metalness: 1; roughness: 1; repeat: 1 4;" visible="true"></a-box>
+      
+      <a-box id="box-6" position="2.50 0.25 -10.25" rotation="0 0 90" scale="0.2 10 0.2"
+      geometry="width: 1; height: 1; depth: 1;" material="color: #a67b3f; opacity: 1; shader: standard; side: double; metalness: 1; roughness: 1; repeat: 1 4;" visible="true"></a-box>
+      
+      <a-box id="box-4" position="3.00 1.25 -10.25" rotation="0 0 0" scale="0.2 10 0.2"
+      geometry="width: 1; height: 1; depth: 1;" material="color: #a67b3f; opacity: 1; shader: standard; side: double; metalness: 1; roughness: 1; repeat: 1 4;" visible="true"></a-box>
+      
+      <a-box id="box-3" position="0.00 1.25 -10.25" rotation="0 0 0" scale="0.2 10 0.2"
+      geometry="width: 1; height: 1; depth: 1;" material="color: #a67b3f; opacity: 1; shader: standard; side: double; metalness: 1; roughness: 1; repeat: 1 4;" visible="true"></a-box>
+      
+      <a-box id="box-15" position="-5.75 0.75 14.67" rotation="0 0 0" scale="0.2 10 0.2"
+      geometry="width: 1; height: 1; depth: 1;" material="color: #a67b3f; opacity: 1; shader: standard; side: double; metalness: 1; roughness: 1; repeat: 1 4;" visible="true"></a-box>
+      
+      <a-box id="box-16" position="-9.00 0.75 14.67" rotation="0 0 0" scale="0.2 10 0.2"
+      geometry="width: 1; height: 1; depth: 1;" material="color: #a67b3f; opacity: 1; shader: standard; side: double; metalness: 1; roughness: 1; repeat: 1 4;" visible="true"></a-box>
+      
+      <a-box id="box-14" position="-12.50 0.75 14.67" rotation="0 0 0" scale="0.2 10 0.2"
+      geometry="width: 1; height: 1; depth: 1;" material="color: #a67b3f; opacity: 1; shader: standard; side: double; metalness: 1; roughness: 1; repeat: 1 4;" visible="true"></a-box>
+      
+      <a-box id="box-56" position="-2.50 -1.75 11.00" rotation="0 0 0" scale="0.2 10 0.2"
+      geometry="width: 1; height: 1; depth: 1;" material="color: #a67b3f; opacity: 1; shader: standard; side: double; metalness: 1; roughness: 1; repeat: 1 4;" visible="true"></a-box>
+      
+      <a-box id="box-68" position="8.40 0.75 -4.75" rotation="0 0 0" scale="0.2 10 0.2"
+      geometry="width: .5; height: .48; depth: 5;" material="color: #5d7a86; opacity: 0.63; shader: standard; side: double; metalness: 1; roughness: 0.8; repeat: 1 4;" visible="true"></a-box>
+      
+      <a-box id="box-67" position="8.50 -1.75 -4.75" rotation="0 0 0" scale="0.2 10 0.2"
+      geometry="width: 1; height: 1; depth: 7;" material="color: #686560; opacity: 1; shader: standard; side: double; metalness: 1; roughness: 0.8; repeat: 1 4;" visible="true"></a-box>
+      
+      <a-box id="box-55" position="-2.50 -1.75 9.50" rotation="0 0 0" scale="0.2 10 0.2"
+      geometry="width: 1; height: 1; depth: 1;" material="color: #a67b3f; opacity: 1; shader: standard; side: double; metalness: 1; roughness: 1; repeat: 1 4;" visible="true"></a-box>
+      
+      <a-box id="box-17" position="-12.50 1.25 10.50" rotation="0 0 0" scale="0.2 10 0.2"
+      geometry="width: 1; height: 1; depth: 1;" material="color: #a67b3f; opacity: 1; shader: standard; side: double; metalness: 1; roughness: 1; repeat: 1 4;" visible="true"></a-box>
+      
+      <a-box id="box-9" position="-12.50 1.25 6.6" rotation="0 0 0" scale="0.2 10 0.2"
+      geometry="width: 1; height: 1; depth: 1;" material="color: #a67b3f; opacity: 1; shader: standard; side: double; metalness: 1; roughness: 1; repeat: 1 4;" visible="true"></a-box>
+      
+      <a-box id="box-30" position="-12.75 1.25 1.50" rotation="0 0 0" scale="0.2 10 0.2"
+      geometry="width: 1; height: 1; depth: 1;" material="color: #a67b3f; opacity: 1; shader: standard; side: double; metalness: 1; roughness: 1; repeat: 1 4;" visible="true"></a-box>
+      
+      <a-box id="box-29" position="-12.75 1.25 -4.00" rotation="0 0 0" scale="0.2 10 0.2"
+      geometry="width: 1; height: 1; depth: 1;" material="color: #a67b3f; opacity: 1; shader: standard; side: double; metalness: 1; roughness: 1; repeat: 1 4;" visible="true"></a-box>
+      
+      <a-box id="box-2" position="-2.50 1.25 -10.25" rotation="0 0 0" scale="0.2 10 0.2"
+      geometry="width: 1; height: 1; depth: 1;" material="color: #a67b3f; opacity: 1; shader: standard; side: double; metalness: 1; roughness: 1; repeat: 1 4;" visible="true"></a-box>
+      
+      <a-box id="box-42" position="10.50 1.25 15.25" rotation="0 90 0" scale="1 1 1"
+      geometry="width: 10; height: 10; depth: 3;" material="color: #ffffff; opacity: 1; shader: standard; side: double; src: #HJdr2bqPG__whitebricklowrezjpg; metalness: 1; roughness: 1; repeat: 4 4;" visible="true"></a-box>
+      
+      <a-box id="box-41" position="12.25 1.25 6.25" rotation="0 90 0" scale="1 1 1"
+      geometry="width: 10; height: 10; depth: 3;" material="color: #ffffff; opacity: 1; shader: standard; side: double; src: #HkHU3W9PM__whitebricklowrezjpg; metalness: 1; roughness: 1; repeat: 4 4;" visible="true"></a-box>
+      
+      <a-box id="box-11" position="10.00 1.25 -2.25" rotation="0 90 0" scale="1 1 1"
+      geometry="width: 10; height: 10; depth: 3;" material="color: #ffffff; opacity: 1; shader: standard; side: double; src: #Sy7K3-9wM__whitebricklowrezjpg; metalness: 1; roughness: 1; repeat: 4 4;" visible="true"></a-box>
+      
+      <a-box id="box-1" position="10.75 1.25 -8.75" rotation="0 0 0" scale="1 1 1"
+      geometry="width: 10; height: 10; depth: 3;" material="color: #ffffff; opacity: 1; shader: standard; side: double; src: #BJLuhZcvf__whitebricklowrezjpg; metalness: 1; roughness: 1; repeat: 4 4;" visible="true"></a-box>
+      
+      <a-box id="box-26" position="-2.602 8.25 10.75" rotation="0 90 0" scale="1 1 1"
+      geometry="width: 5; height: 10; depth: 0.2;" material="color: #ffffff; opacity: 1; shader: standard; side: double; src: #S12ZnZ9vG__whitebricklowrezjpg; metalness: 1; roughness: 1; repeat: 2 4;" visible="true"></a-box>
+      
+      <a-box id="box-25" position="-2.6 1.25 13.5" rotation="0 90 0" scale="1 1 1"
+      geometry="width: 5; height: 10; depth: 0.2;" material="color: #ffffff; opacity: 1; shader: standard; side: double; src: #SyRmnZqDf__whitebricklowrezjpg; metalness: 1; roughness: 1; repeat: 2 4;" visible="true"></a-box>
+      
+      <a-box id="box-24" position="-2.58 1.25 7.01" rotation="0 90 0" scale="1 1 1"
+      geometry="width: 5; height: 10; depth: 0.2;" material="color: #ffffff; opacity: 1; shader: standard; side: double; src: #H15knW5wz__whitebricklowrezjpg; metalness: 1; roughness: 1; repeat: 2 4;" visible="true"></a-box>
+      
+      <a-box id="box-22" position="-13.00 1.25 4.00" rotation="0 90 0" scale="1 1 1"
+      geometry="width: 5; height: 10; depth: 1;" material="color: #ffffff; opacity: 1; shader: standard; side: double; src: #rJK2o-5vz__whitebricklowrezjpg; metalness: 1; roughness: 1; repeat: 2 4;" visible="true"></a-box>
+      
+      <a-box id="box-23" position="-7.52 1.25 4.75" rotation="0 0 0" scale="1 1 1"
+      geometry="width: 10; height: 10; depth: 0.5;" material="color: #ffffff; opacity: 1; shader: standard; side: double; src: #r1EpoZ9Pf__whitebricklowrezjpg; metalness: 1; roughness: 1; repeat: 8 4;" visible="true"></a-box>
+      
+      <a-box id="box-12" position="4.25 1.25 16.08" rotation="0 0 0" scale="1 1 1"
+      geometry="width: 20; height: 10; depth: 3;" material="color: #ffffff; opacity: 1; shader: standard; side: double; src: #rkAEhbqDz__whitebricklowrezjpg; metalness: 1; roughness: 1; repeat: 8 4;" visible="true"></a-box>
+      
+      <a-box id="box-8" position="-13.00 1.25 -14.00" rotation="0 90 0" scale="1 1 1"
+      geometry="width: 20; height: 10; depth: 1;" material="color: #ffffff; opacity: 1; shader: standard; side: double; src: #S1Hii-9Df__whitebricklowrezjpg; metalness: 1; roughness: 1; repeat: 8 4;" visible="true"></a-box>
+      
+      <a-box id="box" position="-7.5 1.25 -8.75" rotation="0 0 0" scale="1 1 1"
+      geometry="width: 10; height: 10; depth: 3;" material="color: #ffffff; opacity: 1; shader: standard; side: double; src: #S1Otob5wz__whitebricklowrezjpg; metalness: 1; roughness: 1; repeat: 4 4;" visible="true"></a-box>
+      
+      <a-light id="point-light-3" position="-12.00 3.00 13.50" light="type: point; color: #c4c4c4; intensity: 1.5; distance: 0.00; castShadow: false;"
+      visible="true" class="clickable" animation="startEvents: box-76-clicked; property: light.intensity; to: .1; dur: 200; easing: linear; elasticity: 400; delay: 0; dir: normal; loop: 0; "
+      animation__1="startEvents: click; property: light.intensity; to: 1.5; dur: 200; easing: linear; elasticity: 400; delay: 0; dir: normal; loop: 0; "></a-light>
+      
+      <a-light id="point-light-2" position="-10.99 3.75 -1.00" light="type: point; color: #c4c4c4; intensity: .4; distance: 0.00; castShadow: false;"
+      visible="true" animation="startEvents: box-76-clicked; property: light.intensity; to: .1; dur: 1000; easing: linear; elasticity: 400; delay: 0; dir: normal; loop: 0; "
+      animation__1="startEvents: box-77-clicked; property: light.intensity; to: .4; dur: 1000; easing: linear; elasticity: 400; delay: 0; dir: normal; loop: 0; "></a-light>
+      
+      <a-light id="point-light-4" position="1.75 3.75 -10.91" light="type: point; color: #c4c4c4; intensity: .5; distance: 0.00; castShadow: false;"
+      visible="true" animation="startEvents: box-76-clicked; property: light.intensity; to: .01; dur: 1000; easing: linear; elasticity: 400; delay: 0; dir: normal; loop: 0; "
+      animation__1="startEvents: box-77-clicked; property: light.intensity; to: .5; dur: 1000; easing: linear; elasticity: 400; delay: 0; dir: normal; loop: 0; "></a-light>
+      
+      <a-light id="point-light" position="6.95 3.50 12.02" light="type: point; color: #c4c4c4; intensity: .7; distance: 0.00; castShadow: false;"
+      visible="true" animation="startEvents: box-76-clicked; property: light.intensity; to: 0; dur: 1000; easing: linear; elasticity: 400; delay: 0; dir: normal; loop: 0; "
+      animation__1="startEvents: box-78-clicked; property: light.intensity; to: 7; dur: 1000; easing: linear; elasticity: 400; delay: 0; dir: normal; loop: 0; "
+      animation__2="startEvents: box-77-clicked; property: light.intensity; to: .7; dur: 1000; easing: linear; elasticity: 400; delay: 0; dir: normal; loop: 0; "></a-light>
+      
+      <a-plane id="plane-1" position="-0.12 4.75 2.25" rotation="90 0 0" scale="1 1 1"
+      geometry="width: 25; height: 25;" material="color: #504d4d; opacity: 1; shader: standard; side: double; metalness: 0.09; roughness: 1; repeat: 1 1;" visible="true"></a-plane>
+      
+      <a-plane id="plane" position="-0.12360682432758725 0.25 2.25" rotation="90 0 0"
+      scale="1 1 1" geometry="width: 25; height: 25;" material="color: #d2c49a; opacity: 1; shader: standard; side: double; src: #rkNp1f5DG__floor1lowrezjpg; metalness: 0.86; roughness: 0.99; repeat: 8 8;" visible="true"></a-plane>
+      
+      <a-sky id="sky" geometry="radius: 5000; segmentsHeight: 20; segmentsWidth: 64;"
+      material="color: #87CEEB; flatShading: true; opacity: 0.83; repeat: 1 1; shader: standard; side: double;"
+      position="0 0 0" rotation="0 0 0" scale="-1 1 1"
+      visible="true"></a-sky>
+      
+      <a-obj-model id="obj-model" position="-8.25 0.35 -1.75" rotation="0 0 0"
+      scale="0.03 0.03 0.03" obj-model="obj: #r1q3BCvwM__tableobj;" material="color: #ffffff; opacity: 1; shader: standard; side: double; src: #SybmaWqwz__lightwoodlowrezjpg; metalness: 0.83; roughness: 0.66; repeat: 1 1;"
+      visible="true"></a-obj-model>
+      
+      <a-plane id="ground" geometry="height: 5000; width: 5000;" material="color: #ffffff; metalness: 0.5; opacity: 0; repeat: 1 1; roughness: 1; shader: standard; side: double;"
+      position="0 0 0" rotation="-90 0 0" visible="true"></a-plane>
+      
+      <a-light id="point-light-1" light="castShadow: false; color: #ffffff; distance: 0; intensity: 1; type: point;"
+      position="0 7 5" visible="true"></a-light>
+
+
+      
+      <!-- Natural Compound Elements -->
+      <!-- Global Ambient Space Lighting to fix Dim Outer Shadows -->
+      <a-light type="ambient" color="#cccccc" intensity="0.5"></a-light>
+      <a-light type="directional" color="#ffffff" intensity="0.6" position="-10 20 15"></a-light>
+
+      <!-- Green Grass Yard -->
+      <a-plane id="grass-yard" position="0 0.1 0" rotation="-90 0 0" scale="250 250 1" material="src: #grass-texture; repeat: 100 100; roughness: 1; metalness: 0"></a-plane>
+
+      <!-- Parking Lot / Driveway -->
+      <a-plane id="driveway" position="8.5 0.12 30" rotation="-90 0 0" scale="8 15 1" material="color: #888888; roughness: 0.9; metalness: 0"></a-plane>
+
+      <!-- The Car -->
+      <a-entity id="family-car" gltf-model="#car-model" position="8.5 0.5 30" rotation="0 180 0" scale="3 3 3"></a-entity>
+
+      <!-- The Built 3D Swimming Pool -->
+      <a-entity id="swimming-pool" position="-18 0.1 -22.0">
+         <!-- Pool Base / Tiling -->
+         <a-box position="0 0.05 0" width="14" height="0.1" depth="24" material="color: #6495ED; roughness: 0.5"></a-box>
+         
+         <!-- Moving Water Shader -->
+         <a-water position="0 0.5 0" width="13.5" length="23.5" color="#1CA3EC" base-color="#0F5E9C" foam-color="#4CB8F6" opacity="0.8"></a-water>
+                  
+                  
+         <!-- Pool Walls (Outer Deck/Rim) -->
+         <a-box position="0 0.35 11.9" width="14" height="0.8" depth="0.2" material="color: #e5e5e5; roughness: 1"></a-box>
+         <a-box position="0 0.35 -11.9" width="14" height="0.8" depth="0.2" material="color: #e5e5e5; roughness: 1"></a-box>
+         <a-box position="-6.9 0.35 0" width="0.2" height="0.8" depth="24" material="color: #e5e5e5; roughness: 1"></a-box>
+         <a-box position="6.9 0.35 0" width="0.2" height="0.8" depth="24" material="color: #e5e5e5; roughness: 1"></a-box>
+         
+         <!-- Pool Equipment -->
+         <!-- Diving Board -->
+         <a-box position="0 0.8 12.5" width="1.5" height="0.05" depth="3" color="#F0F0F0"></a-box>
+         <a-box position="0 0.4 13.5" width="1.2" height="0.8" depth="0.5" color="#888888"></a-box>
+
+         <!-- Umbrella -->
+         <a-cylinder position="-5 1.5 13.5" radius="0.05" height="3" color="#333333"></a-cylinder>
+         <a-cone position="-5 3 13.5" radius-bottom="2.5" radius-top="0.05" height="0.8" color="#FF5722"></a-cone>
+
+         <!-- Lounge Chair 1 -->
+         <a-entity position="-2 0.0 13.5" rotation="0 0 0">
+            <a-box position="0 0.3 0" width="2" height="0.1" depth="0.8" color="#FFFFFF"></a-box>
+            <a-box position="-0.9 0.65 0" rotation="0 0 -30" width="1" height="0.1" depth="0.8" color="#FFFFFF"></a-box>
+            <a-cylinder position="-0.8 0.15 -0.3" radius="0.05" height="0.3" color="#888"></a-cylinder>
+            <a-cylinder position="-0.8 0.15 0.3" radius="0.05" height="0.3" color="#888"></a-cylinder>
+            <a-cylinder position="0.8 0.15 -0.3" radius="0.05" height="0.3" color="#888"></a-cylinder>
+            <a-cylinder position="0.8 0.15 0.3" radius="0.05" height="0.3" color="#888"></a-cylinder>
+         </a-entity>
+
+         <!-- Lounge Chair 2 -->
+         <a-entity position="-8 0.0 13.5" rotation="0 0 0">
+            <a-box position="0 0.3 0" width="2" height="0.1" depth="0.8" color="#FFFFFF"></a-box>
+            <a-box position="-0.9 0.65 0" rotation="0 0 -30" width="1" height="0.1" depth="0.8" color="#FFFFFF"></a-box>
+            <a-cylinder position="-0.8 0.15 -0.3" radius="0.05" height="0.3" color="#888"></a-cylinder>
+            <a-cylinder position="-0.8 0.15 0.3" radius="0.05" height="0.3" color="#888"></a-cylinder>
+            <a-cylinder position="0.8 0.15 -0.3" radius="0.05" height="0.3" color="#888"></a-cylinder>
+            <a-cylinder position="0.8 0.15 0.3" radius="0.05" height="0.3" color="#888"></a-cylinder>
+         </a-entity>
+      </a-entity>
+
+      <!-- Trees -->
+      <a-entity gltf-model="#tree-model" position="25 4.00 30" rotation="0 45 0" scale="3 3 3"></a-entity>
+      <a-entity gltf-model="#tree-model" position="-25 4.20 30" rotation="0 135 0" scale="3.5 3.5 3.5"></a-entity>
+      <a-entity gltf-model="#tree-model" position="-28 3.90 -12" rotation="0 225 0" scale="2.8 2.8 2.8"></a-entity>
+      <a-entity gltf-model="#tree-model" position="15 4.00 -25" rotation="0 315 0" scale="3 3 3"></a-entity>
+      <a-entity gltf-model="#tree-model" position="-15 4.40 35" rotation="0 0 0" scale="4 4 4"></a-entity>
+      <a-entity gltf-model="#tree-model" position="30 4.90 5" rotation="0 90 0" scale="5 5 5"></a-entity>
+      <a-entity gltf-model="#tree-model" position="-35 5.30 0" rotation="0 -90 0" scale="6 6 6"></a-entity>
+
+      <!-- Fence Perimeter -->
+      <a-entity id="perimeter-fence">
+        <!-- Front Gate -->
+        <a-entity gltf-model="#gate-model" position="0 0.15 45" rotation="0 0 0" scale="0.003 0.003 0.003"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="-38 0.15 -40" rotation="0 180 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="-34 0.15 -40" rotation="0 180 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="-30 0.15 -40" rotation="0 180 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="-26 0.15 -40" rotation="0 180 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="-22 0.15 -40" rotation="0 180 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="-18 0.15 -40" rotation="0 180 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="-14 0.15 -40" rotation="0 180 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="-10 0.15 -40" rotation="0 180 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="-6 0.15 -40" rotation="0 180 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="-2 0.15 -40" rotation="0 180 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="2 0.15 -40" rotation="0 180 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="6 0.15 -40" rotation="0 180 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="10 0.15 -40" rotation="0 180 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="14 0.15 -40" rotation="0 180 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="18 0.15 -40" rotation="0 180 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="22 0.15 -40" rotation="0 180 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="26 0.15 -40" rotation="0 180 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="30 0.15 -40" rotation="0 180 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="34 0.15 -40" rotation="0 180 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="38 0.15 -40" rotation="0 180 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="-38 0.15 45" rotation="0 0 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="-34 0.15 45" rotation="0 0 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="-30 0.15 45" rotation="0 0 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="-26 0.15 45" rotation="0 0 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="-22 0.15 45" rotation="0 0 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="-18 0.15 45" rotation="0 0 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="-14 0.15 45" rotation="0 0 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="-10 0.15 45" rotation="0 0 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="-6 0.15 45" rotation="0 0 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="4 0.15 45" rotation="0 0 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="8 0.15 45" rotation="0 0 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="12 0.15 45" rotation="0 0 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="16 0.15 45" rotation="0 0 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="20 0.15 45" rotation="0 0 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="24 0.15 45" rotation="0 0 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="28 0.15 45" rotation="0 0 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="32 0.15 45" rotation="0 0 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="36 0.15 45" rotation="0 0 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="40 0.15 45" rotation="0 0 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="-40 0.15 -38" rotation="0 90 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="-40 0.15 -34" rotation="0 90 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="-40 0.15 -30" rotation="0 90 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="-40 0.15 -26" rotation="0 90 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="-40 0.15 -22" rotation="0 90 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="-40 0.15 -18" rotation="0 90 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="-40 0.15 -14" rotation="0 90 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="-40 0.15 -10" rotation="0 90 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="-40 0.15 -6" rotation="0 90 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="-40 0.15 -2" rotation="0 90 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="-40 0.15 2" rotation="0 90 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="-40 0.15 6" rotation="0 90 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="-40 0.15 10" rotation="0 90 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="-40 0.15 14" rotation="0 90 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="-40 0.15 18" rotation="0 90 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="-40 0.15 22" rotation="0 90 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="-40 0.15 26" rotation="0 90 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="-40 0.15 30" rotation="0 90 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="-40 0.15 34" rotation="0 90 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="-40 0.15 38" rotation="0 90 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="-40 0.15 42" rotation="0 90 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="40 0.15 -38" rotation="0 -90 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="40 0.15 -34" rotation="0 -90 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="40 0.15 -30" rotation="0 -90 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="40 0.15 -26" rotation="0 -90 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="40 0.15 -22" rotation="0 -90 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="40 0.15 -18" rotation="0 -90 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="40 0.15 -14" rotation="0 -90 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="40 0.15 -10" rotation="0 -90 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="40 0.15 -6" rotation="0 -90 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="40 0.15 -2" rotation="0 -90 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="40 0.15 2" rotation="0 -90 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="40 0.15 6" rotation="0 -90 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="40 0.15 10" rotation="0 -90 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="40 0.15 14" rotation="0 -90 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="40 0.15 18" rotation="0 -90 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="40 0.15 22" rotation="0 -90 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="40 0.15 26" rotation="0 -90 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="40 0.15 30" rotation="0 -90 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="40 0.15 34" rotation="0 -90 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="40 0.15 38" rotation="0 -90 0" scale="3 3 3"></a-entity>
+        <a-entity gltf-model="#fence-end-model" position="40 0.15 42" rotation="0 -90 0" scale="3 3 3"></a-entity>
+      </a-entity>
+    </a-scene>
+
+  </body>
+
+</html>
